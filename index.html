@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <header>
+      <div class="top">
+        <h1>MULTIPLE CHOICE QUESTIONS</h1>
+      </div>
+    </header>
+
+    <div class="main">
+      <div class="container">
+        <div class="Questions">
+          <h2 class="h_2">Questions</h2>
+        </div>
+
+        <div class="Answers">
+          <div id="option_1">
+            <input type="radio" name="answer" value="0" />
+            <h3 class="options">option1</h3>
+          </div>
+          <div id="option_2">
+            <input type="radio" name="answer" value="1" />
+            <h3 class="options">option2</h3>
+          </div>
+          <div id="option_3">
+            <input type="radio" name="answer" value="2" />
+            <h3 class="options">option3</h3>
+          </div>
+          <div id="option_4">
+            <input type="radio" name="answer" value="3" />
+            <h3 class="options">option4</h3>
+          </div>
+        </div>
+
+        <div class="submit-btn">
+          <button>submit</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="score">
+      <h3>Calculating...</h3>
+      <div class="loader"></div>
+    </div>
+
+    <div class="display_score">
+      <h6></h6>
+    </div>
+    
+    <script src="main.js"></script>
+  </body>
+</html>
