@@ -212,9 +212,7 @@ span {
     height: 80px;
     font-size: 15px;
   }
-  .options{
-    font-size: 10px;
-  }
+  
 .Answers .options{
   height: 40px ;
   width: 50px;
@@ -259,5 +257,6 @@ span{
 }
 h6{
   font-size: 40px;
+}
 }
 }

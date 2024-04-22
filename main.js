@@ -116,7 +116,7 @@ function displayQuestion(questionIndex) {
 submitBtn.addEventListener("click", () => {
   const selectedOption = document.querySelector('input[name="answer"]:checked');
   if (selectedOption) {
-    const userAnswer = selectedOption;
+    const userAnswer = parseInt(selectedOption.value);
     const correctAnswer = Data[currentQuiz].correctAns;
     if (userAnswer === correctAnswer) {
       score++;
@@ -155,7 +155,6 @@ function totalScore() {
       }% <br> <span id="pass">You Passed, Congratulations!</span>`;
     }, 2000);
   }
-
 }
 
 displayQuestion(currentQuiz);
