@@ -194,23 +194,43 @@ span {
   }
   .container{
     width: 81vw;
-    height: 70vh;
+    height:68vh;
+    position: relative;
   }
   .container .Questions{
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 600;
-    height: 20px;
+    height: 50px;
   }
   .container .Answers{
-    height: calc(70dvh - 79.8px);
+    height: 260px;
         border-radius: 3px;
         gap: auto;
+        font-size: 10px;
+  }
+  #option_1, #option_2, #option_3, #opiton_4{
+    height: 80px;
+    font-size: 15px;
+  }
+  .options{
+    font-size: 10px;
   }
 .Answers .options{
-  height: 20px ;
+  height: 40px ;
   width: 50px;
-  font-size: 14px;
-}
+  font-size: 10px;
+  padding: 0%;
+  gap: auto;
+  }
+button{
+  height: 50px;
+  font-size: 30px;
+  margin-bottom: none;
+  position: absolute;
+  bottom: 0;
+  top: 10px;
+  
+
 h4{
   font-size: 40px;
 }
