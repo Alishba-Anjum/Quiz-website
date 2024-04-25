@@ -181,82 +181,87 @@ span {
   transform: translate(-50%, -50%);
 }
 
-
-@media (max-width: 770px) {
-  header{
- height: 11vh;
-  } 
-  header .top h1{
+@media (max-width: 600px) {
+  header {
+    height: 14vh;
+    margin-top: 5%;
+  }
+  header .top h1 {
     font-size: 40px;
   }
-  .main{
-    height: calc(100vh - 11vh);
+  .main {
+    height: 550px;
   }
-  .container{
+  .container {
     width: 81vw;
-    height:68vh;
+    height: 70vh;
     position: relative;
   }
-  .container .Questions{
+  .container .Questions {
     font-size: 20px;
-    font-weight: 600;
-    height: 50px;
-  }
-  .container .Answers{
-    height: 260px;
-        border-radius: 3px;
-        gap: auto;
-        font-size: 10px;
-  }
-  #option_1, #option_2, #option_3, #opiton_4{
+    font-weight: 400;
     height: 80px;
-    font-size: 15px;
   }
-  
-.Answers .options{
-  height: 40px ;
-  width: 50px;
-  font-size: 10px;
-  padding: 0%;
-  gap: auto;
+  .container .Answers {
+    height: calc(70vh - 80px);
+    border-radius: 3px;
+    font-size: 12px;
   }
-button{
-  height: 50px;
-  font-size: 30px;
-  margin-bottom: none;
-  position: absolute;
-  bottom: 0;
-  top: 10px;
-  
+  #option_1,
+  #option_2,
+  #option_3,
+  #opiton_4 {
+    height: 30px;
+    font-size: 12px;
+  }
+  #option_1,
+  #option_2,
+  #option_3,
+  #opiton_4 .options {
+    font-size: 10px;
+    padding: 0%;
+  }
 
-h4{
-  font-size: 40px;
-}
+  .Answers .options {
+    height: 30px;
+    font-size: 12px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  button {
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: none;
+    position: absolute;
+    bottom: 0;
+    top: 10px;
+    margin-top: 10px;
 
-.loader{
-  border: 20px solid #f3f3f3;
-  border-top: 20px solid #3498db;
-  height: 200px;
-  width: 200px;
-}
+    .score h3 {
+      font-size: 15px;
+    }
 
-h6{
-  font-size: 40px;
-}
-.display_score{
-  font-size: 40px;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-}
-span{
-  font-size: 25px;
-}
-#pass{
-  font-size: 40px;
-}
-h6{
-  font-size: 40px;
-}
-}
+    .loader {
+      border: 20px solid #f3f3f3;
+      border-top: 20px solid #3498db;
+      height: 200px;
+      width: 200px;
+    }
+
+    h6 {
+      font-size: 20px;
+    }
+    .display_score {
+     font-size: 15px;
+    }
+    span {
+      font-size: 15px;
+    }
+    #pass {
+      font-size: 15px;
+    }
+    h6 {
+      font-size: 15px;
+    }
+  }
 }
