@@ -181,87 +181,57 @@ span {
   transform: translate(-50%, -50%);
 }
 
-@media (max-width: 600px) {
+
+
+@media (max-width: 670px) {
   header {
     height: 14vh;
-    margin-top: 5%;
   }
-  header .top h1 {
+
+  .top h1 {
     font-size: 40px;
   }
+
   .main {
-    height: 550px;
+    flex-direction: column;
   }
+
   .container {
-    width: 81vw;
-    height: 70vh;
-    position: relative;
+    width: 90%;
+    max-width: 90%;
   }
+
   .container .Questions {
     font-size: 20px;
-    font-weight: 400;
-    height: 80px;
-  }
-  .container .Answers {
-    height: calc(70vh - 80px);
-    border-radius: 3px;
-    font-size: 12px;
-  }
-  #option_1,
-  #option_2,
-  #option_3,
-  #opiton_4 {
-    height: 30px;
-    font-size: 12px;
-  }
-  #option_1,
-  #option_2,
-  #option_3,
-  #opiton_4 .options {
-    font-size: 10px;
-    padding: 0%;
+    height: auto;
   }
 
-  .Answers .options {
-    height: 30px;
-    font-size: 12px;
-    padding: 10px;
-    margin-bottom: 10px;
+  .Questions .h_2 {
+    font-size: 25px;
   }
+
+  .container .Answers .options {
+    font-size: 18px;
+  }
+
+  .submit-btn {
+    height: 50px;
+  }
+
   button {
-    height: 40px;
-    font-size: 20px;
-    margin-bottom: none;
-    position: absolute;
-    bottom: 0;
-    top: 10px;
-    margin-top: 10px;
+    height: 50px;
+    font-size: 24px;
+  }
 
-    .score h3 {
-      font-size: 15px;
-    }
+  .loader {
+    width: 250px;
+    height: 250px;
+  }
 
-    .loader {
-      border: 20px solid #f3f3f3;
-      border-top: 20px solid #3498db;
-      height: 200px;
-      width: 200px;
-    }
-
-    h6 {
-      font-size: 20px;
-    }
-    .display_score {
-     font-size: 15px;
-    }
-    span {
-      font-size: 15px;
-    }
-    #pass {
-      font-size: 15px;
-    }
-    h6 {
-      font-size: 15px;
-    }
+  .display_score {
+    font-size: 30px;
+  }
+  #pass{
+    font-size: 35px;
   }
 }
